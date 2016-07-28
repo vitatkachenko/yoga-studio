@@ -1,0 +1,33 @@
+header {
+	border-bottom: 1px solid $color-light-grey;
+
+	.logo {
+		display: inline-block;
+		float: left;
+
+		img {
+			width: 50px;
+			margin: 15px 0 0 0;
+			vertical-align: bottom;
+		}
+	}
+
+	.phone-contact {
+		display: inline-block;
+		float: right;
+
+		span {
+			color: $color-blue;
+			font-size: 23px;
+			vertical-align: top;
+    		margin-top: 15px;
+		}
+
+		p {
+			display: inline-block;
+			font-weight: bold;
+		    font-size: 25px;
+		    letter-spacing: 1px;
+		}
+	}
+}

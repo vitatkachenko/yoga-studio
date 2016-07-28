@@ -1,0 +1,791 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 2, ../sass/components/_sections.scss */
+section {
+  overflow: hidden;
+}
+/* line 5, ../sass/components/_sections.scss */
+section span {
+  color: #1abc9c;
+}
+
+/* line 10, ../sass/components/_sections.scss */
+section.studio-advantages {
+  position: relative;
+  height: 730px;
+}
+/* line 14, ../sass/components/_sections.scss */
+section.studio-advantages:before {
+  content: "";
+  background: url(../images/main_background_yoga.jpg);
+  width: 100%;
+  height: 730px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 0.4;
+}
+/* line 27, ../sass/components/_sections.scss */
+section.studio-advantages .tagline-block {
+  width: 50%;
+  margin-bottom: 35px;
+}
+/* line 31, ../sass/components/_sections.scss */
+section.studio-advantages .tagline-block p {
+  font: 18px cursive;
+  font-weight: normal;
+  line-height: 175%;
+}
+/* line 38, ../sass/components/_sections.scss */
+section.studio-advantages .advantages-items {
+  width: 35%;
+  margin-left: 15px;
+}
+/* line 42, ../sass/components/_sections.scss */
+section.studio-advantages .advantages-items div span {
+  font-size: 45px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+/* line 47, ../sass/components/_sections.scss */
+section.studio-advantages .advantages-items div span .fa-stack-1x {
+  line-height: 155%;
+  font-size: 55px;
+}
+/* line 52, ../sass/components/_sections.scss */
+section.studio-advantages .advantages-items div span + p {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+}
+/* line 58, ../sass/components/_sections.scss */
+section.studio-advantages .advantages-items div span + p + p {
+  color: #898989;
+}
+/* line 64, ../sass/components/_sections.scss */
+section.studio-advantages .advantages-items div.clearfix {
+  margin-bottom: 38px;
+}
+/* line 67, ../sass/components/_sections.scss */
+section.studio-advantages .advantages-items div.clearfix:last-child span {
+  font-size: 36px;
+}
+/* line 70, ../sass/components/_sections.scss */
+section.studio-advantages .advantages-items div.clearfix:last-child span .fa-stack-1x {
+  font-size: 35px;
+  line-height: 213%;
+}
+/* line 78, ../sass/components/_sections.scss */
+section.studio-advantages hr {
+  border-color: #e7e7e7;
+}
+/* line 82, ../sass/components/_sections.scss */
+section.studio-advantages h2 {
+  font: 60px monospace;
+  text-transform: uppercase;
+  margin: 53px 0 0px 0;
+}
+/* line 88, ../sass/components/_sections.scss */
+section.studio-advantages h3 {
+  font-size: 30px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+}
+
+/* line 96, ../sass/components/_sections.scss */
+section.studio-courses-subscription hr {
+  float: left;
+}
+/* line 100, ../sass/components/_sections.scss */
+section.studio-courses-subscription hr + p {
+  font: 16px cursive;
+  font-weight: normal;
+  line-height: 175%;
+  float: right;
+}
+/* line 107, ../sass/components/_sections.scss */
+section.studio-courses-subscription h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 53px 0 0px 0;
+}
+/* line 113, ../sass/components/_sections.scss */
+section.studio-courses-subscription h3 {
+  font-size: 30px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+}
+/* line 119, ../sass/components/_sections.scss */
+section.studio-courses-subscription .form-head {
+  background: #1abc9c;
+  color: #fff;
+  text-align: center;
+}
+/* line 125, ../sass/components/_sections.scss */
+section.studio-courses-subscription .essential-yoga-block {
+  float: left;
+  display: inline-block;
+  width: 55%;
+}
+/* line 131, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form {
+  float: right;
+  display: inline-block;
+  width: 40%;
+  margin-top: 70px;
+}
+/* line 137, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form input, section.studio-courses-subscription .join-course-form select {
+  width: 94%;
+  height: 45px;
+  padding: 0 15px 0 15px;
+  box-sizing: border-box;
+  margin: 10px 12px 20px 12px;
+}
+/* line 144, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form input:focus, section.studio-courses-subscription .join-course-form select:focus {
+  outline: none;
+}
+/* line 149, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form .form-head {
+  height: 160px;
+  overflow: visible;
+  position: relative;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+/* line 156, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form .form-head div {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #efefef;
+  margin: 0 auto;
+  color: #898989;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-size: 25px;
+  position: absolute;
+  top: 136px;
+  right: 45%;
+}
+/* line 172, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form label {
+  font-size: 17px;
+  display: inline-block;
+  margin-left: 12px;
+  color: #898989;
+}
+/* line 179, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form p:first-child {
+  text-transform: uppercase;
+  font: 32px serif;
+  margin: 0;
+}
+/* line 185, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form p + p {
+  font-size: 26px;
+}
+/* line 189, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form fieldset {
+  margin: 0;
+  border: 1px solid #e7e7e7;
+  padding-top: 45px;
+}
+/* line 195, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form form {
+  background: #fafafa;
+}
+/* line 198, ../sass/components/_sections.scss */
+section.studio-courses-subscription .join-course-form form p {
+  text-align: center;
+  color: #898989;
+}
+
+/* line 208, ../sass/components/_sections.scss */
+section.studio-benefits h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 53px 0 0px 0;
+  text-align: center;
+}
+/* line 215, ../sass/components/_sections.scss */
+section.studio-benefits h3 {
+  font-size: 30px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+  text-align: center;
+}
+/* line 222, ../sass/components/_sections.scss */
+section.studio-benefits li {
+  list-style-type: none;
+  display: block;
+  margin: 10px 0 20px 0;
+}
+/* line 229, ../sass/components/_sections.scss */
+section.studio-benefits i {
+  color: #1abc9c;
+}
+/* line 233, ../sass/components/_sections.scss */
+section.studio-benefits hr + .w33 ul {
+  padding: 0;
+  text-align: right;
+}
+/* line 237, ../sass/components/_sections.scss */
+section.studio-benefits hr + .w33 ul i {
+  margin-left: 10px;
+}
+/* line 242, ../sass/components/_sections.scss */
+section.studio-benefits .w33:last-child ul {
+  padding: 0;
+  text-align: left;
+}
+/* line 246, ../sass/components/_sections.scss */
+section.studio-benefits .w33:last-child ul i {
+  margin-right: 10px;
+}
+/* line 251, ../sass/components/_sections.scss */
+section.studio-benefits .w33.image-block {
+  background: url(../images/lotus-yoga-pose.png) no-repeat;
+  height: 278px;
+  background-position: 45% 0%;
+}
+
+/* line 258, ../sass/components/_sections.scss */
+section.studio-courses-list {
+  background: #fafafa;
+}
+/* line 261, ../sass/components/_sections.scss */
+section.studio-courses-list .row {
+  height: 330px;
+  margin-top: 30px;
+}
+/* line 266, ../sass/components/_sections.scss */
+section.studio-courses-list h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 53px 0 0px 0;
+  text-align: center;
+}
+/* line 273, ../sass/components/_sections.scss */
+section.studio-courses-list h3 {
+  font-size: 30px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+  text-align: center;
+}
+/* line 280, ../sass/components/_sections.scss */
+section.studio-courses-list .w23 img + p {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+/* line 285, ../sass/components/_sections.scss */
+section.studio-courses-list .w23 img + p + p {
+  color: #898989;
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+
+/* line 293, ../sass/components/_sections.scss */
+section.time-schedule {
+  text-align: center;
+  background: #fafafa;
+}
+/* line 297, ../sass/components/_sections.scss */
+section.time-schedule h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 53px 0 0px 0;
+}
+/* line 303, ../sass/components/_sections.scss */
+section.time-schedule h3 {
+  font-size: 30px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+}
+/* line 309, ../sass/components/_sections.scss */
+section.time-schedule p:nth-child(even) {
+  font-size: 26px;
+}
+/* line 313, ../sass/components/_sections.scss */
+section.time-schedule p:nth-child(odd) {
+  font-size: 17px;
+}
+/* line 317, ../sass/components/_sections.scss */
+section.time-schedule button {
+  margin-top: 20px;
+}
+/* line 321, ../sass/components/_sections.scss */
+section.time-schedule p + hr {
+  width: 550px;
+  border-color: #e7e7e7;
+}
+
+/* line 327, ../sass/components/_sections.scss */
+section.trainer {
+  text-align: center;
+}
+/* line 330, ../sass/components/_sections.scss */
+section.trainer img {
+  float: left;
+}
+/* line 334, ../sass/components/_sections.scss */
+section.trainer h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 53px 0 0px 0;
+}
+/* line 340, ../sass/components/_sections.scss */
+section.trainer h3 {
+  font-size: 30px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+}
+/* line 346, ../sass/components/_sections.scss */
+section.trainer hr + div {
+  float: left;
+  width: 50%;
+}
+/* line 351, ../sass/components/_sections.scss */
+section.trainer .trainer-info-wrapper {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+/* line 356, ../sass/components/_sections.scss */
+section.trainer .trainer-info-wrapper p:first-child {
+  font-size: 20px;
+  line-height: 190%;
+}
+/* line 361, ../sass/components/_sections.scss */
+section.trainer .trainer-info-wrapper p:nth-child(2) {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 170%;
+}
+/* line 366, ../sass/components/_sections.scss */
+section.trainer .trainer-info-wrapper p:nth-child(2) span {
+  font-size: 19px;
+  color: inherit;
+}
+/* line 372, ../sass/components/_sections.scss */
+section.trainer .trainer-info-wrapper p:nth-child(3) {
+  font-size: 19px;
+  line-height: 175%;
+}
+
+/* line 381, ../sass/components/_sections.scss */
+section.pricing .w31 {
+  border: 3px solid #e7e7e7;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+/* line 387, ../sass/components/_sections.scss */
+section.pricing h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 53px 0 0px 0;
+  text-align: center;
+}
+/* line 394, ../sass/components/_sections.scss */
+section.pricing h3 {
+  font-size: 30px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+  text-align: center;
+}
+/* line 401, ../sass/components/_sections.scss */
+section.pricing p:first-child {
+  text-align: center;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin: 30px 0 25px 0;
+}
+/* line 408, ../sass/components/_sections.scss */
+section.pricing ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  line-height: 200%;
+  font-size: 17px;
+}
+/* line 416, ../sass/components/_sections.scss */
+section.pricing .row {
+  height: 450px;
+  margin-top: 30px;
+}
+/* line 421, ../sass/components/_sections.scss */
+section.pricing .price-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 425, ../sass/components/_sections.scss */
+section.pricing .price-wrapper span:first-child {
+  font-size: 33px;
+  vertical-align: top;
+}
+/* line 430, ../sass/components/_sections.scss */
+section.pricing .price-wrapper span + span {
+  font-size: 60px;
+}
+
+/* line 437, ../sass/components/_sections.scss */
+section.faq h2 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 53px 0 0px 0;
+  text-align: center;
+}
+/* line 444, ../sass/components/_sections.scss */
+section.faq h3 {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 16px 0 25px 0;
+  color: #898989;
+  text-align: center;
+}
+/* line 454, ../sass/components/_sections.scss */
+section.faq .container hr + div, section.faq .container div:last-child {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 40px 15px 0 0;
+}
+/* line 460, ../sass/components/_sections.scss */
+section.faq .container hr + div p:nth-child(odd), section.faq .container div:last-child p:nth-child(odd) {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 465, ../sass/components/_sections.scss */
+section.faq .container hr + div p:nth-child(even), section.faq .container div:last-child p:nth-child(even) {
+  font-size: 18px;
+  line-height: 185%;
+}
+
+/* line 473, ../sass/components/_sections.scss */
+section.yoga-video {
+  text-align: center;
+  margin-bottom: 100px;
+}
+/* line 477, ../sass/components/_sections.scss */
+section.yoga-video h2 {
+  font-size: 36px;
+  margin: 53px 0 0px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 484, ../sass/components/_sections.scss */
+section.yoga-video h3 {
+  font-size: 26px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+  text-align: center;
+}
+
+/* line 492, ../sass/components/_sections.scss */
+section.reviews {
+  background: #fafafa;
+  position: relative;
+}
+/* line 496, ../sass/components/_sections.scss */
+section.reviews .container {
+  margin-bottom: 100px;
+}
+/* line 500, ../sass/components/_sections.scss */
+section.reviews h2 {
+  font-size: 36px;
+  margin: 53px 0 0px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 507, ../sass/components/_sections.scss */
+section.reviews h3 {
+  font-size: 26px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+  text-align: center;
+}
+/* line 514, ../sass/components/_sections.scss */
+section.reviews .review-wraper:nth-child(2) {
+  text-align: right;
+}
+/* line 519, ../sass/components/_sections.scss */
+section.reviews hr.short-line + .review-wrapper .review-author-image {
+  float: left;
+  margin-left: 5%;
+}
+/* line 528, ../sass/components/_sections.scss */
+section.reviews .review-wrapper:last-child .review-author-image {
+  float: right;
+  margin-right: 5%;
+}
+/* line 534, ../sass/components/_sections.scss */
+section.reviews .review-wrapper div {
+  width: 58%;
+  margin: 0 auto;
+  /*
+  			&:after {
+  				content: "\201c";  
+  				font-size: 150px;
+  			    position: absolute;
+  			    top: 200px;
+  			    right: 500px;
+  			}*/
+}
+/* line 547, ../sass/components/_sections.scss */
+section.reviews .review-wrapper p {
+  font-size: 18px;
+  line-height: 180%;
+}
+/* line 553, ../sass/components/_sections.scss */
+section.reviews .review-author-image {
+  width: 135px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+/* line 561, ../sass/components/_sections.scss */
+section.free-class h2 {
+  font-size: 36px;
+  margin: 53px 0 0px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 568, ../sass/components/_sections.scss */
+section.free-class h3 {
+  font-size: 26px;
+  margin: 16px 0 25px 0;
+  color: #898989;
+  text-align: center;
+}
+/* line 575, ../sass/components/_sections.scss */
+section.free-class p {
+  text-align: center;
+  margin-bottom: 100px;
+}
+/* line 580, ../sass/components/_sections.scss */
+section.free-class button {
+  margin-top: 30px;
+}
+
+/* line 585, ../sass/components/_sections.scss */
+footer {
+  background: #fafafa;
+}
+/* line 588, ../sass/components/_sections.scss */
+footer span {
+  color: #1abc9c;
+}
+/* line 592, ../sass/components/_sections.scss */
+footer .container {
+  padding: 20px 0 20px 0;
+}
+
+/* line 597, ../sass/components/_sections.scss */
+.social-icons {
+  text-align: center;
+  padding: 45px 0 15px 0;
+}
+/* line 601, ../sass/components/_sections.scss */
+.social-icons span {
+  font-size: 38px;
+  color: #e7e7e7;
+}
+/* line 605, ../sass/components/_sections.scss */
+.social-icons span:hover {
+  cursor: pointer;
+}
+
+/* line 1, ../sass/components/_buttons.scss */
+.btn {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  color: #fff;
+}
+/* line 6, ../sass/components/_buttons.scss */
+.btn:hover {
+  cursor: pointer;
+}
+
+/* line 11, ../sass/components/_buttons.scss */
+.btn-primary {
+  text-transform: uppercase;
+  font-size: 23px;
+  width: 94%;
+  padding: 18px 0 18px 0;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* line 21, ../sass/components/_buttons.scss */
+.btn-sm {
+  padding: 17px 12px 17px 12px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+/* line 28, ../sass/components/_buttons.scss */
+.btn-sm:focus {
+  outline: none;
+}
+
+/* line 33, ../sass/components/_buttons.scss */
+.btn-md {
+  padding: 13px 16px 13px 16px;
+  border: 0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 43, ../sass/components/_buttons.scss */
+.btn-lg {
+  width: 310px;
+}
+
+/* line 47, ../sass/components/_buttons.scss */
+.no-active {
+  background: transparent;
+  border: none;
+  color: #898989;
+  font-size: 18px;
+  cursor: pointer;
+}
+/* line 54, ../sass/components/_buttons.scss */
+.no-active:hover {
+  padding: 17px 12px 17px 12px;
+  border: 0;
+  border-radius: 5px;
+  background: #1abc9c;
+  color: #fff;
+}
+
+/* line 1, ../sass/components/_main.scss */
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 9, ../sass/components/_main.scss */
+body.yoga-studio {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* line 14, ../sass/components/_main.scss */
+.container {
+  width: 1140px;
+  min-height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 21, ../sass/components/_main.scss */
+h1 {
+  display: inline-block;
+  margin: 0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 28, ../sass/components/_main.scss */
+h2, h3 {
+  font-weight: normal;
+}
+
+/* line 32, ../sass/components/_main.scss */
+.w33 {
+  width: 33%;
+  display: inline-block;
+}
+
+/* line 37, ../sass/components/_main.scss */
+.w23 {
+  width: 23%;
+  margin-right: 2.5%;
+  float: left;
+  overflow: hidden;
+  background: #fff;
+  border: 2px solid #e7e7e7;
+  box-sizing: border-box;
+}
+/* line 46, ../sass/components/_main.scss */
+.w23:last-child {
+  margin: 0;
+}
+
+/* line 51, ../sass/components/_main.scss */
+.w31 {
+  width: 31%;
+  margin-right: 2.5%;
+  float: left;
+}
+/* line 56, ../sass/components/_main.scss */
+.w31:last-child {
+  margin-right: 0;
+}
+
+/* line 61, ../sass/components/_main.scss */
+hr.short-line {
+  width: 53px;
+  background: #1abc9c;
+  border-color: #1abc9c;
+  height: 2px;
+}
+
+/* line 69, ../sass/components/_main.scss */
+p.social-icons .fa-circle {
+  color: #e7e7e7;
+}
+/* line 73, ../sass/components/_main.scss */
+p.social-icons .fa-stack-1x {
+  color: #898989;
+}
+
+/* line 1, ../sass/components/_icons&images.scss */
+header {
+  border-bottom: 1px solid #e7e7e7;
+}
+/* line 4, ../sass/components/_icons&images.scss */
+header .logo {
+  display: inline-block;
+  float: left;
+}
+/* line 8, ../sass/components/_icons&images.scss */
+header .logo img {
+  width: 50px;
+  margin: 15px 0 0 0;
+  vertical-align: bottom;
+}
+/* line 15, ../sass/components/_icons&images.scss */
+header .phone-contact {
+  display: inline-block;
+  float: right;
+}
+/* line 19, ../sass/components/_icons&images.scss */
+header .phone-contact span {
+  color: #1abc9c;
+  font-size: 23px;
+  vertical-align: top;
+  margin-top: 15px;
+}
+/* line 26, ../sass/components/_icons&images.scss */
+header .phone-contact p {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}

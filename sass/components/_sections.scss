@@ -1,0 +1,609 @@
+
+section {
+	overflow: hidden;
+
+	span {
+		color: $color-blue;
+	}
+}
+
+section.studio-advantages {
+    position: relative;
+    height: 730px;
+
+    &:before {
+    	content: "";
+	    background: url(../images/main_background_yoga.jpg);
+	    width: 100%;
+	    height: 730px;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    background-position: 50% 50%;
+	    background-size: cover;
+	    opacity: 0.4;	
+    }
+
+	.tagline-block {
+		width: 50%;
+		margin-bottom: 35px;
+
+		p {
+			font: 18px cursive;
+			font-weight: normal;
+		    line-height: 175%;
+		}
+	}
+
+	.advantages-items {
+		width: 35%;
+   		margin-left: 15px;
+
+		div span {
+			font-size: 45px;
+			float: left;
+			margin: 0 20px 0 0;
+
+			.fa-stack-1x {
+				line-height: 155%;
+    			font-size: 55px;
+			}
+
+			& + p {
+				display: inline-block;
+			    font-size: 22px;
+			    font-weight: bold;
+			    margin: 5px 0 10px 0;
+
+			    & + p {
+			 		color: $color-dark-grey;
+				}
+			}
+		}
+
+		& div.clearfix {
+			margin-bottom: 38px;
+
+			&:last-child span {
+				font-size: 36px;
+
+				.fa-stack-1x {
+					font-size: 35px;
+	    			line-height: 213%;
+				}
+			}
+		}
+	}
+
+	hr {
+		border-color: $color-light-grey;
+	}
+
+	h2 {
+	    font: 60px monospace;
+	    text-transform: uppercase;
+	    margin: 53px 0 0px 0;
+	}
+
+	h3 {
+	    font-size: 30px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	}	
+}
+
+section.studio-courses-subscription {
+	hr {
+    	float: left;
+	}
+
+	hr + p {
+		font: 16px cursive;
+	    font-weight: normal;
+	    line-height: 175%;
+	    float: right;
+	}
+
+	h2 {
+		font-size: 42px;
+	    text-transform: uppercase;
+	    margin: 53px 0 0px 0;
+	} 
+
+	h3 {
+	    font-size: 30px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	}	
+
+	.form-head {
+		background: $color-blue;
+		color: $color-white;
+		text-align: center;
+	}
+
+	.essential-yoga-block {
+		float: left;
+		display: inline-block;
+		width: 55%;
+	}
+
+	.join-course-form {
+		float: right;
+		display: inline-block;
+		width: 40%;
+		margin-top: 70px;
+
+		input, select {
+			width: 94%;
+    		height: 45px;
+    		padding: 0 15px 0 15px;
+    		box-sizing: border-box;
+    		margin: 10px 12px 20px 12px;
+
+    		&:focus {
+    			outline: none;
+    		}
+		}
+
+		.form-head {
+			height: 160px;
+			overflow: visible;
+			position: relative;
+			padding-top: 30px;
+    		box-sizing: border-box;
+
+			div {
+				height: 50px;
+				width: 50px;
+				border-radius: 50%;
+				background: $color-grey-button;
+				margin: 0 auto;
+				color: $color-dark-grey;
+				text-transform: uppercase;
+			    line-height: 46px;
+			    font-size: 25px;
+			    position: absolute;
+			    top: 136px;
+			    right: 45%;
+			}
+		}
+
+		label {
+			font-size: 17px;
+    		display: inline-block;
+    		margin-left: 12px;
+    		color: $color-dark-grey;
+		}
+
+		p:first-child {
+			text-transform: uppercase;
+		    font: 32px serif;
+		    margin: 0;
+		}
+
+		p + p {
+			font-size: 26px;
+		}
+
+		fieldset {
+			margin: 0;
+    		border: 1px solid $color-light-grey;
+    		padding-top: 45px;
+		}
+
+		form {
+			background: $color-grey-background;
+
+			p {
+				text-align: center;
+				color: $color-dark-grey;
+			}
+		}
+	}
+
+}
+
+section.studio-benefits {
+	h2 {
+		font-size: 42px;
+	    text-transform: uppercase;
+	    margin: 53px 0 0px 0;
+	    text-align: center;
+	}
+
+	h3 {
+		font-size: 30px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	    text-align: center;
+	}
+
+	li {
+		list-style-type: none;
+		display: block;
+    	margin: 10px 0 20px 0;
+
+	}
+
+	i {
+		color: $color-blue;
+	}
+
+	hr + .w33 ul {
+		padding: 0;
+		text-align: right;
+
+		i {
+			margin-left: 10px;
+		}
+	}
+
+	.w33:last-child ul {
+		padding: 0;
+		text-align: left;
+
+		i {
+			margin-right: 10px;
+		}
+	}
+
+	.w33.image-block {
+		background: url(../images/lotus-yoga-pose.png) no-repeat;
+		height: 278px;
+    	background-position: 45% 0%;
+	}
+}
+
+section.studio-courses-list {
+	background: $color-grey-background;
+
+	.row {
+		height: 330px;
+    	margin-top: 30px;
+	}
+
+	h2 {
+		font-size: 42px;
+	    text-transform: uppercase;
+	    margin: 53px 0 0px 0;
+	    text-align: center;
+	}
+
+	h3 {
+		font-size: 30px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	    text-align: center;
+	}
+
+	.w23 img + p {
+		text-transform: uppercase;
+		font-size: 20px;
+		text-align: center;
+
+		& + p {
+			color: $color-dark-grey;
+			text-align: center;
+			padding: 0 10px 0 10px;
+		}
+	}
+}
+
+section.time-schedule {
+	text-align: center;
+	background: $color-grey-background;
+
+	h2 {
+		font-size: 42px;
+	    text-transform: uppercase;
+	    margin: 53px 0 0px 0;
+	}
+
+	h3 {
+		font-size: 30px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	}
+
+	p:nth-child(even) {
+		font-size: 26px;
+	}
+
+	p:nth-child(odd) {
+		font-size: 17px;
+	}
+
+	button {
+		margin-top: 20px;
+	}
+
+	p + hr {
+		width: 550px;
+		border-color: $color-light-grey;
+	}
+}
+
+section.trainer {
+	text-align: center;
+
+	img {
+		float: left;
+	}
+
+	h2 {
+		font-size: 42px;
+	    text-transform: uppercase;
+	    margin: 53px 0 0px 0;
+	}
+
+	h3 {
+		font-size: 30px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	}
+
+	hr + div {
+		float: left;
+		width: 50%;
+	}
+
+	.trainer-info-wrapper {
+		float: left;
+		width: 50%;
+		text-align: left;
+	
+		p:first-child {
+		    font-size: 20px;
+		    line-height: 190%;
+		}
+
+		p:nth-child(2) {
+			font-style: italic;
+		    font-size: 18px;
+		    line-height: 170%;
+
+		    span {
+		    	font-size: 19px;
+		    	color: inherit;
+		    }
+		}
+
+		p:nth-child(3) {
+			font-size: 19px;
+		    line-height: 175%;
+		}
+	}
+	
+}
+
+section.pricing {
+	.w31 {
+		border: 3px solid $color-light-grey;
+		border-radius: 5px;
+		padding-bottom: 30px;
+	}
+
+	h2 {
+		font-size: 42px;
+	    text-transform: uppercase;
+	    margin: 53px 0 0px 0;
+	    text-align: center;
+	}
+
+	h3 {
+		font-size: 30px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	   	text-align: center;
+	}
+
+	p:first-child {
+		text-align: center;
+	    font-size: 19px;
+	    text-transform: uppercase;
+	    margin: 30px 0 25px 0;
+	}
+
+	ul {
+		padding: 0;
+	    list-style-type: none;
+	    text-align: center;
+	    line-height: 200%;
+	    font-size: 17px;
+	}
+
+	.row {
+		height: 450px;
+    	margin-top: 30px;
+	}
+
+	.price-wrapper {
+		margin: 0 auto;
+    	text-align: center;
+
+    	span:first-child {
+    		font-size: 33px;
+    		vertical-align: top;
+    	}
+
+    	span + span {
+    		font-size: 60px;
+    	}
+	}
+}
+
+section.faq {
+	h2 {
+		font-size: 36px;
+	    font-weight: normal;
+	    margin: 53px 0 0px 0;
+	    text-align: center;
+	}
+
+	h3 {
+		font-size: 26px;
+	    font-weight: normal;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	   	text-align: center;
+	}
+
+	.container {
+
+		hr + div, div:last-child {
+			width: 50%;
+			float: left;
+			box-sizing: border-box;
+			padding: 40px 15px 0 0;
+
+			& p:nth-child(odd) {
+				font-size: 16px;
+			    font-weight: 600;
+			}
+
+			& p:nth-child(even) {
+				font-size: 18px;
+			    line-height: 185%;
+			}
+		}
+	}
+}
+
+section.yoga-video {
+	text-align: center;
+	margin-bottom: 100px;
+
+	h2 {
+		font-size: 36px;
+	    margin: 53px 0 0px 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: 26px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	   	text-align: center;
+	}
+}
+
+section.reviews {
+	background: $color-grey-background;
+	position: relative;
+
+	.container {
+		margin-bottom: 100px;
+	}
+
+	h2 {
+		font-size: 36px;
+	    margin: 53px 0 0px 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: 26px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	   	text-align: center;
+	}
+
+	.review-wraper:nth-child(2) {
+		text-align: right;
+	}
+
+	hr.short-line + .review-wrapper {
+		.review-author-image {
+			float: left;
+			margin-left: 5%;
+		}
+	}
+
+	.review-wrapper {
+
+		&:last-child {
+			.review-author-image {
+				float: right;
+				margin-right: 5%;
+			}
+		}
+
+		div {
+			width: 58%;
+			margin: 0 auto;
+/*
+			&:after {
+				content: "\201c";  
+				font-size: 150px;
+			    position: absolute;
+			    top: 200px;
+			    right: 500px;
+			}*/
+		}
+
+		p {
+			font-size: 18px;
+		    line-height: 180%;
+		}
+	}
+
+	.review-author-image {
+		width: 135px;
+		height: 140px;
+    	border-radius: 50%;
+	}
+}
+
+section.free-class {
+	h2 {
+		font-size: 36px;
+	    margin: 53px 0 0px 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: 26px;
+	    margin: 16px 0 25px 0;
+	    color: $color-dark-grey;
+	   	text-align: center;
+	}
+
+	p {
+		text-align: center;
+		margin-bottom: 100px;
+	}
+
+	button {
+		margin-top: 30px;
+	}
+}
+
+footer {
+	background: $color-grey-background;
+
+	span {
+		color: $color-blue;
+	}
+
+	.container {
+		padding: 20px 0 20px 0;
+	}
+}
+
+.social-icons {
+	text-align: center;
+	padding: 45px 0 15px 0;
+
+	span {
+		font-size: 38px;
+		color: $color-light-grey;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
